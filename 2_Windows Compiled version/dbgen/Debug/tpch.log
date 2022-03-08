@@ -1,0 +1,27 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  text.c
+  speed_seed.c
+  rng64.c
+  rnd.c
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(131,21): warning C4477: “fprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“__int64”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(131,21): message : 请考虑在格式字符串中使用“%lld”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(131,21): message : 请考虑在格式字符串中使用“%I64d”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(154,11): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 2 拥有了类型“__int64”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(154,11): message : 请考虑在格式字符串中使用“%lld”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(154,11): message : 请考虑在格式字符串中使用“%I64d”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(154,11): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 3 拥有了类型“__int64”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(154,11): message : 请考虑在格式字符串中使用“%lld”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(154,11): message : 请考虑在格式字符串中使用“%I64d”
+  print.c
+  permute.c
+  load_stub.c
+  driver.c
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\driver.c(368,11): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 2 拥有了类型“__int64”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\driver.c(368,11): message : 请考虑在格式字符串中使用“%lld”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\driver.c(368,11): message : 请考虑在格式字符串中使用“%I64d”
+  build.c
+  bm_utils.c
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\bm_utils.c(563,21): warning C4101: “remainder”: 未引用的局部变量
+  正在生成代码...
+bm_utils.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  tpch.vcxproj -> C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\Debug\dbgen.exe

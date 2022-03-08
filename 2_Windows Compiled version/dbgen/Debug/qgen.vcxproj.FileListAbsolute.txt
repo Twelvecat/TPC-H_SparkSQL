@@ -1,0 +1,2 @@
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\Debug\qgen.exe
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\Debug\qgen.pdb

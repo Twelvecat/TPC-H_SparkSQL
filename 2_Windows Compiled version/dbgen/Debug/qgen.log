@@ -1,0 +1,22 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(dbgen.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  varsub.c
+  text.c
+  speed_seed.c
+  rng64.c
+  rnd.c
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(131,21): warning C4477: “fprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“__int64”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(131,21): message : 请考虑在格式字符串中使用“%lld”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(131,21): message : 请考虑在格式字符串中使用“%I64d”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(156,11): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 2 拥有了类型“__int64”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(156,11): message : 请考虑在格式字符串中使用“%lld”
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\rnd.c(156,11): message : 请考虑在格式字符串中使用“%I64d”
+  qgen.c
+  print.c
+  permute.c
+  build.c
+  bm_utils.c
+C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\bm_utils.c(563,21): warning C4101: “remainder”: 未引用的局部变量
+  正在生成代码...
+bm_utils.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  qgen.vcxproj -> C:\Users\91900\Desktop\TPCH_SparkSql\2_Windows Compiled version\dbgen\Debug\qgen.exe
