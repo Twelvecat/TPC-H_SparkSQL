@@ -1,5 +1,7 @@
 # 使用TPC-H对Spark Sql进行负载评估
 
+**本项目已经更新入 Wiki，从格式和内容的角度来说，建议阅读 Wiki 版本，[链接在此](https://wiki.twelvecat.cn/%E4%BD%BF%E7%94%A8%20TPC-H%20%E5%AF%B9%20Spark%20SQL%20%E8%BF%9B%E8%A1%8C%E8%B4%9F%E8%BD%BD%E8%AF%84%E4%BC%B0)。**
+
 ##  1. TPC-H的简单介绍
 
 &emsp;&emsp;TPC全称为Transaction Processing Performance Council，即“事务处理性能委员会”。而TPC-H是由TPC提供的一个决策支持基准，可以生成一些模拟的商业数据。这些数据共包含8个表格，而数据集的大小可以由参数指定，以此对数据库进行不同量级上的测试。为了方便使用，TPC-H提供在linux和windows下生成数据，同时也可以根据实际数据库类型对配置文件进行修改，以生成符合对应数据库的测试数据。
